@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sample-python-test"
+version = "1.0.0"
+description = "Python sample test"
+authors = [""]
+license = "Proprietary"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.13.1"
+requests = "^2.27.1"
+unittest-xml-reporting = "^3.2.0"
+djangorestframework-simplejwt = "^5.2.0"
+pydantic = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
